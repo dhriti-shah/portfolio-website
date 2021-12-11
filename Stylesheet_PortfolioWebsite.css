@@ -1,0 +1,198 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.links{
+    height: 3cm;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: url(https://static.thenounproject.com/png/3397821-200.png), auto;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding-top: 1.75cm;
+    padding-right: 1cm;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;   
+}
+
+nav ul li a{
+    list-style-type: square;
+    text-decoration: none;
+    color:#cc3333;
+    font-weight: bold;
+    font-size: 2.4cm;
+    margin-left: 900px;
+    line-height: 150%;
+}
+
+nav ul li a:hover{
+    color: #1e1e1e;
+    list-style-image: image(3488575-200.png);  
+}
+
+.aboutmetext{
+    cursor: url(https://static.thenounproject.com/png/3397821-200.png), auto;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 3 cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: inherit;
+    color: #cc3333;
+    justify-content: center;
+    display: flex;
+}
+
+span::before {
+    content: "COMMUNICATION DESIGN";
+    animation: animate infinite 3s;
+    padding-left: 10px;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "IN THE MAKING";
+    }
+
+    50% {
+        content: "VISUAL ART";
+    }
+
+    75% {
+        content: "BRAND STRATEGY";
+    }
+
+    }
+
+    .bodytext{
+        text-align: end;
+        padding-top: 2%;
+        padding-left: 5%;
+    font-size: 13;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: inherit;
+    font-style: italic;
+    color: #1e1e1e;
+    justify-content: inherit;
+    display: flex;
+    width: 82%;
+    line-height: 45px;
+    }
+
+    .firstcolumn{
+        float: left;
+        padding: 10px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-style: oblique;
+        color: #cc3333;
+        justify-content: inherit;
+        display: block;
+        font-kerning: initial;
+    }
+
+    .content{
+    display: block;
+    align-items: middle;
+    width: 60%;
+    padding-left: 7cm;
+    padding-bottom: 20px;
+    }
+
+    .container{
+        float: left;
+width: 50%;
+padding: 10px;
+height: 300px;
+            position: relative;
+            width: 50%;
+            align-items: center;
+        }
+        
+        .image {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+            padding-left: 1.5cm;
+            align-items: center;
+        }
+        
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+            padding-left: 1.5cm;
+            padding-top: 1.5cm;
+            align-items: center;
+        }
+        
+        .container:hover .image {
+            opacity: 0.3;
+        }
+        
+        .container:hover .middle {
+            opacity: 1;
+        }
+        
+        .text {
+            background-color: #cc3333;
+            color:#1e1e1e;
+            font-size: 16px;
+            padding: 16px 32px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 1.5cm;
+            align-items: center;
+        }
+
+
+        /* Portfolio Section */
+        #Portfolio{
+            display: flex;
+            flex-direction: column;
+            background-color: #1e1e1e;
+            color: #cc3333;
+            font-family: Arial, Helvetica, sans-serif;
+            align-items: center;
+            padding: 20px;
+
+        }
+
+        .gallery{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            box-sizing: border-box;
+        }
+
+        .gallery img{
+            width: 360px;
+            height: 240px;
+            margin: 10px;
+        }
